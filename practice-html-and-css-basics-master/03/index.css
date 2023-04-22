@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "MyWebFont";
+  src: url("myfont.woff2") format("woff2"), url("myfont.woff") format("woff");
+}
+.parent {
+  width: 600px;
+  padding: 20px;
+}
+.parent:nth-child(1) {
+  display: inline-block;
+}
+.parent:nth-child(2) {
+  display: flow-root;
+}
+.parent:nth-child(3) {
+  display: flex;
+}
+.child:first-child {
+  width: 30%;
+  font-family: "Times New Roman", Times, serif;
+  font-style: regular;
+}
+.child--middle {
+  width: 30%;
+  font-family: "Times New Roman", Times, serif;
+  font-style: bold;
+}
+.child:last-child {
+  width: 40%;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}

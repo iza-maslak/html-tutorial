@@ -1,0 +1,18 @@
+.main_list {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.level2 {
+  position: absolute;
+}

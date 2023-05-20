@@ -6,13 +6,43 @@
   text-transform: uppercase;
   line-height: 2rem;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 .level2 {
   position: absolute;
+  top: 10rem;
+}
+
+.main_list > * {
+  padding: 1rem;
+  border-top: 4px solid lightblue;
+  border-bottom: 4px solid lightblue;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
+
+.items:hover {
+  border-top: 4px solid rgb(0, 187, 255);
+  color: rgb(0, 187, 255);
+}
+
+.items:hover .szczałeczka {
+  transform: rotate(90deg);
+}
+
+.szczałeczka {
+  font-weight: bolder;
+  font-size: smaller;
 }
